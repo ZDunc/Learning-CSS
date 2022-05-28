@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+
+  /*
+  border-style: solid;
+  border-color: lightpink;
+  border-width: 8px; */
+
+  display:flex;
+  flex-direction: column;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px 16px;
+  background: #eee;
+  padding: 8px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+.header, 
+.footer {
+  display: flex;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+
+.left-links {
+  margin-right: auto;
+  margin-left: -24px;
+}
+
+.right-links {
+  margin-left: auto;
+  margin-right: 12px;
+}
+
+.content {
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+
+/* Alter list settings */
+
+ul {
+  color: dimgrey;
+  list-style-type: none;
+  gap: 12px;
+  display: flex;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
